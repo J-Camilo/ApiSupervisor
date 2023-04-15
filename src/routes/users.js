@@ -33,7 +33,7 @@ router.get('/users/:id', (req, res) => {
 // update
 router.put('/users/:id', (req, res) => {
     const { id } = req.params;
-    const { name, email, password } = req.body;
+    const { name, email, password, preference } = req.body;
 
     userSchema
         .updateOne({_id: id}, { $set:{ name, email, password, preference} })
