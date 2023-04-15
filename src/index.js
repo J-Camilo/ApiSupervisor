@@ -16,7 +16,7 @@ app.use('/Api', userRoute);
 app.get('/', (req, res) =>{
     res.send('welcome to my Api Jc4milo ');
  })
- console.log(process.env.KEY_URI);
+//  console.log(process.env.KEY_URI);
 
 // cnoncetion
 mongoose.connect(process.env.KEY_URI)
