@@ -14,7 +14,7 @@ const userSchema = mongoose.Schema({
     },
     preference: {
         type: String,
-        // required: true
+        required: false
     }
 });
 
