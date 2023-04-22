@@ -46,7 +46,7 @@ router.delete('/users/:id', (req, res) => {
     const { id } = req.params;
    
     userSchema
-        .remove({_id: id})
+        .findOneAndRemove({_id: id})
         .then((data) => res.json(data))
         .catch((error) => res.json({ message: error }));
 })

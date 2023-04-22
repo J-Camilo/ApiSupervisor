@@ -13,20 +13,18 @@ Content-Type: application/json
 GET Http://localhost:9000/Api/users HTTP/1.1
 
 ###
-GET Http://localhost:9000/Api/users/641635f3adb57c48cac9150b HTTP/1.1
+GET Http://localhost:9000/Api/users/6440346a0ce48e90652cef5b HTTP/1.1
 
 ### 
-PUT Http://localhost:9000/Api/users/641635f3adb57c48cac9150b  HTTP/1.1
+PUT Http://localhost:9000/Api/users/6440346a0ce48e90652cef5b  HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Jhonsina Mario",
-    "email" : "Jhonqgmail.com",
-    "password" : "12345678"
+    "name": "hola"
 }
 
 
 ###
-DELETE Http://localhost:9000/Api/users/6417b5e913fb8546d283d38e  HTTP/1.1
+DELETE Http://localhost:9000/Api/users/6440346a0ce48e90652cef5b  HTTP/1.1
 
 
