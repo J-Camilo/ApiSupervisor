@@ -1,9 +1,9 @@
 const express =  require('express');
-const mongoose = require("mongoose");
+const mongoose = require("mongoose"); 
 const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, './.env') });
 const userRoute = require("./routes/users");
-const cors = require('cors')
+const cors = require('cors') 
 const app = express();
 const Door = process.env.PORT || 9000
 
